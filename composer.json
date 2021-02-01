@@ -54,7 +54,7 @@
                 "BradleyKingDev\\LaravelSMSWorks\\LaravelSMSWorksServiceProvider"
             ],
             "aliases": {
-                "SMSWorks": "BradleyKingDev\\LaravelSMSWorks\\SMSFacade"
+                "SMSWorks": "BradleyKingDev\\LaravelSMSWorks\\SMSWorks"
             }
         }
     }
