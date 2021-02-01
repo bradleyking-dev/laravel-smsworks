@@ -1,0 +1,61 @@
+{
+    "name": "bradleyking-dev/laravel-smsworks",
+    "description": "SMS Works SDK for Laravel",
+    "keywords": [
+        "bradleyking-dev",
+        "laravel-smsworks"
+    ],
+    "homepage": "https://github.com/bradleyking-dev/laravel-smsworks",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bradley King",
+            "email": "contact@bradley-king.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "thesmsworks/smsw-php-sdk": "dev-master",
+        "illuminate/support": "*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0",
+        "friendsofphp/php-cs-fixer": "~1.12",
+        "squizlabs/php_codesniffer": "~2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "BradleyKingDev\\LaravelSMSWorks\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BradleyKingDev\\LaravelSMSWorks\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BradleyKingDev\\LaravelSMSWorks\\LaravelSMSWorksServiceProvider"
+            ],
+            "aliases": {
+                "SMSWorks": "BradleyKingDev\\LaravelSMSWorks\\SMSFacade"
+            }
+        }
+    }
+}
