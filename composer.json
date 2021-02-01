@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.1",
         "thesmsworks/smsw-php-sdk": "dev-master",
         "illuminate/support": "*",
         "ext-curl": "*",
@@ -25,7 +25,7 @@
         "guzzlehttp/guzzle": "*"
     },
     "require-dev": {
-        "orchestra/testbench": "^4.0",
+        "orchestra/testbench": "^5.0",
         "phpunit/phpunit": "^8.0",
         "friendsofphp/php-cs-fixer": "~1.12",
         "squizlabs/php_codesniffer": "~2.6"
