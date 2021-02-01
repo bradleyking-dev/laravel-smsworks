@@ -51,5 +51,8 @@
                 "SMSWorks": "BradleyKingDev\\LaravelSMSWorks\\SMSWorks"
             }
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
