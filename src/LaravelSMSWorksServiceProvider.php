@@ -12,7 +12,6 @@ class LaravelSMSWorksServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
     }
 
     /**
