@@ -45,7 +45,6 @@ If you discover any security related issues, please email contact@bradley-king.c
 
 - [Bradley King](https://github.com/bradleyking-dev)
 - [TheSMSWorks](https://github.com/TheSMSWorks)
-- [All Contributors](../../contributors)
 
 ## License
 
